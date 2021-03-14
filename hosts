@@ -59,12 +59,24 @@
 
 127.0.0.1 ofurl.org
 127.0.0.1 *.ofurl.org
+127.0.0.1 v21.ofurl.org
 
 127.0.0.1 xiaojukeji.com
 127.0.0.1 *.xiaojukeji.com
+127.0.0.1 omgup1.xiaojukeji.com
+127.0.0.1 as.xiaojukeji.com
+127.0.0.1 omgup.xiaojukeji.com
+127.0.0.1 raven.xiaojukeji.com
+127.0.0.1 thanos.xiaojukeji.com
+127.0.0.1 res.xiaojukeji.com
+
+127.0.0.1 b1-data.ads.heytapmobi.com
+127.0.0.1 adash.man.aliyuncs.com
+
 127.0.0.1 chengxinyouxuan.com
 127.0.0.1 *.chengxinyouxuan.com
 127.0.0.1 shop-gw.chengxinyouxuan.com
 127.0.0.1 st.chengxinyouxuan.com
 127.0.0.1 s3-c-cdn.chengxinyouxuan.com
+
 
