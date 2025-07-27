@@ -1,0 +1,22 @@
+{
+  "name": "adbhosts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "hosts": "node ./src/main.js",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "glob": "^11.0.3"
+  }
+}
