@@ -4,7 +4,7 @@ const generateHostsFromFilters = (content) => {
   const online = (line) => {
     let used = false;
 
-    const matches = /^\|\|([a-z0-9A-Z\.\-\_\/]*)(\^|\^\$all|\^\$third\-party)?$/.exec(line);
+    const matches = /^\|\|([a-z0-9A-Z\.\-\_]*)(\^|\^\$all|\^\$third\-party|\^\$document,popup|\^\$document)?$/.exec(line);
     if (matches) {
       const dns = matches[1];
 
@@ -21,7 +21,7 @@ const generateHostsFromFilters = (content) => {
   }
 
   content.split(/\r?\n/).forEach(online);
-  return lines.join('\r\n');
+  return lines.join('\r\n') + '\r\n' + notUsedLines.join('\r\n');
 }
 
 export default generateHostsFromFilters;
